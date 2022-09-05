@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { useState } from 'react'
 import MoleContainer from './components/MoleContainer'
@@ -16,8 +16,7 @@ function App(){
                 score={score} />
             )
         }
-    
-        return (
+          return (
             <div>
                 {hills}
             </div>
